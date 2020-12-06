@@ -65,10 +65,4 @@ gulp.task('images', function() {
         .pipe(gulp.dest("dist/img"));
 });
 
-gulp.task('css', function() {
-    return gulp.src("src/css/**/*")
-        .pipe(imagemin())
-        .pipe(gulp.dest("dist/css"));
-});
-
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'mailer','html', 'images', 'css'));
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'mailer','html', 'images'));
