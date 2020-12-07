@@ -1,0 +1,38 @@
+.advantage {
+    padding: 58px 0 51px 0;
+    background-color: #f3f3f3;
+    &__title {
+        text-align: center;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    &__items {
+        display: flex;
+        width: 520px;
+        margin-top: 35px;
+        img {
+            width: 60px;
+            height: 55px;
+        }
+    }
+    &__descr {
+        margin-left: 20px;
+    }
+    &__subtitle {
+        color: $main-color;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__text {
+        color: #3a3a3a;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-top: 6px;
+    }
+}

@@ -1,0 +1,40 @@
+.ourwork {
+    min-height: 619px;
+    padding: 51px 0 57px 0;
+    text-align: center;
+    background-color: #f3f3f3;
+    &__line {
+        margin-top: 20px;
+    }
+    &__subtitle {
+        color: #2e2e2e;
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 300;
+        margin-top: 17px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 37px;
+    }
+    &__item {
+        width: 360px;
+    }
+    &__title-h4 {
+        color: $main-color;
+        font-family: "Roboto - Bold";
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 27px;
+    }
+    &__descr {
+        color: #3a3a3a;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: left;
+        margin-top: 6px;
+    }
+}
