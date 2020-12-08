@@ -1,0 +1,62 @@
+.quest {
+    min-height: 438px;
+    background: url(../img/bg_quest.jpg) center (center/cover) no-repeat;
+    padding: 62px 0 79px 0;
+    text-align: center;
+    &__wrapper {
+        width: 896px;
+        min-height: 297px;
+        text-align: center;
+        display: inline-block;
+        background-color: rgba($color: #fff, $alpha: 0.7);
+    }
+    &__title {
+        width: 896px;
+        height: 68px;
+        background-color: #25333c;
+        &-h3 {
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 19px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding-top: 15px;
+        }
+        &-subtitle {
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+    &__input {
+        input {
+            min-width: 268px;
+            min-height: 45px;
+            margin-top: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            background-color: #ffffff;
+            border-radius: 23px;
+            padding-left: 30px;
+            color: #101010;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+    textarea {
+        margin-top: 8px;
+        width: 813px;
+        height: 71px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        background-color: #ffffff;
+        padding-top: 18px;
+        padding-left: 25px;
+        color: #616467;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        border-radius: 10px;
+    }
+}
