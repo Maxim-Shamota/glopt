@@ -18,4 +18,20 @@
         font-size: 15px;
         border-radius: 40px;
     }
+    &_card {
+        width: 160px;
+        height: 45px;
+        line-height: 22.04px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    &_form-callback {
+        position: absolute;
+        bottom: -22px;
+        right: 0px;
+        transform: translateX(-302%);
+    }
+    &_form {
+        margin-top: 17px;
+    }
 }
